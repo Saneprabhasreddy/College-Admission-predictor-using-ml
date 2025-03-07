@@ -3,11 +3,11 @@
 The College Admission Predictor is a Machine Learning-based web application designed to help students estimate their chances of admission to colleges based on EAPCET (Engineering, Agriculture, and Pharmacy Common Entrance Test) scores and other academic parameters. This project leverages Flask for the backend, HTML/CSS/JavaScript for the frontend, and a trained ML model for predictions.
 
 ## Features
-✅ Predicts college admission chances based on EAPCET score, category, and other academic factors
-✅ Interactive web interface for user-friendly predictions
-✅ Flask-based API for integrating ML models into the web application
-✅ Scikit-learn-based ML model trained on historical admission data
-✅ Responsive UI for seamless usage on mobile and desktop
+✅ Predicts college admission chances based on EAPCET score, category, and other academic factors.
+✅ Interactive web interface for user-friendly predictions.
+✅ Flask-based API for integrating ML models into the web application.
+✅ Scikit-learn-based ML model trained on historical admission data.
+✅ Responsive UI for seamless usage on mobile and desktop.
 
 ## Tech Stack
 ### Machine Learning & Backend
