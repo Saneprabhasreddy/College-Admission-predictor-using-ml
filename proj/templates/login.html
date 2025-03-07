@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EAMCET Admission Predictor - Login</title>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <nav class="menu">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/predict">Predictor</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <main>
+    <!-- LOGIN FORM -->
+    <section class="login-page">
+      <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+          <div class="form-group">
+            <label for="emailLogin">Email</label>
+            <input
+              type="email"
+              id="emailLogin"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="passwordLogin">Password</label>
+            <input
+              type="password"
+              id="passwordLogin"
+              name="password"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+          <button type="submit" class="login-btn">Login</button>
+        </form>
+        <a href="signup.html" class="signup-link">Don't have an account? Sign Up</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared JS -->
+  <script src="script.js"></script>
+</body>
+</html>

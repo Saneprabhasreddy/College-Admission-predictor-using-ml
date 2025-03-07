@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EAMCET Admission Predictor - Predictor</title>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <nav class="menu">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/predict">Predictor</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <main>
+    <!-- INFORMATION SECTION (Rank Predictor Form) -->
+    <section class="information">
+      <div class="container">
+        <h2>EAMCET Admission Predictor</h2>
+        <form id="predictor-form">
+          <div class="form-group">
+            <label for="rank">Rank</label>
+            <input
+              type="number"
+              id="rank"
+              name="rank"
+              placeholder="Enter your EAMCET rank"
+              min="1"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="categoryGender">Select Category:</label>
+            <select id="categoryGender" name="categoryGender">
+              <option value="OC_BOYS">OC_Boys</option>
+              <option value="OC_GIRLS">OC_GIRLS</option>
+              <option value="BCA_BOYS">BCA_Boys</option>
+              <option value="BCA_GIRLS">BCA_Girls</option>
+              <option value="BCB_BOYS">BCB_Boys</option>
+              <option value="BCB_GIRLS">BCB_Girls</option>
+              <option value="BCC_BOYS">BCC_BOYS</option>
+              <option value="BCC_GIRLS">BCC_Girls</option>
+              <option value="BCD_BOYS">BCD_Boys</option>
+              <option value="BCD_GIRLS">BCD_Girls</option>
+              <option value="BCE_BOYS">BCE_Boys</option>
+              <option value="BCE_GIRLS">BCE_Girls</option>
+              <option value="SC_BOYS">SC_Boys</option>
+              <option value="SC_GIRLS">SC_Girls</option>
+              <option value="OC_EWS_GIRLS">OC_EWS_Girls</option>
+              <option value="OC_EWS_BOYS">OC_EWS_Boys</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="branchCode">Select Branch:</label>
+            <select id="branchCode" name="branchCode">
+              <option value="CSE">CSE</option>
+              <option value="ECE">ECE</option>
+              <option value="EEE">EEE</option>
+              <option value="MEC">MEC</option>
+              <option value="CIV">CIV</option>
+              <option value="CSD">CSD</option>
+              <option value="CSM">CSM</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="region">Select Inst_Reg</label>
+            <select id="region" name="region">
+              <option value="SVU">SVU</option>
+              <option value="AU">AU</option>
+              <option value="SW">SW</option>
+            </select>
+          </div>
+          <button type="submit" class="login-btn">Predict</button>
+        </form>
+        
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared JS -->
+  <script src="../static/script.js"></script>
+</body>
+</html>

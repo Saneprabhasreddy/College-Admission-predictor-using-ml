@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EAMCET Admission Predictor - Contact</title>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <nav class="menu">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/predict">Predictor</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <main>
+    <section class="contact">
+      <div class="contact-container">
+        <h2>CONTACT US</h2>
+        <div class="contact-box">
+          <div class="message">
+            <h2>Send a Message</h2>
+            <form id="contact-form">
+              <div class="form-element">
+                <label for="contactName">Name</label>
+                <input
+                  type="text"
+                  id="contactName"
+                  name="name"
+                  placeholder="Enter name"
+                  required
+                />
+              </div>
+              <div class="form-element">
+                <label for="contactEmail">Email</label>
+                <input
+                  type="email"
+                  id="contactEmail"
+                  name="email"
+                  placeholder="Enter email"
+                  required
+                />
+              </div>
+              <div class="form-element">
+                <label for="contactMessage">Message</label>
+                <textarea
+                  id="contactMessage"
+                  name="message"
+                  placeholder="Type a message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+            </form>
+            <h2>Contact Information</h2>
+            <p>JNTUA MANAGEMENT</p>
+            <p><i class="fas fa-phone"></i> +91xxxxxxx11</p>
+            <p><i class="fas fa-envelope"></i> apeapcet@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared JS -->
+  <script src="script.js"></script>
+</body>
+</html>
