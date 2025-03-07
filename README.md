@@ -9,16 +9,16 @@ The College Admission Predictor is a Machine Learning-based web application desi
 ✅ Scikit-learn-based ML model trained on historical admission data
 ✅ Responsive UI for seamless usage on mobile and desktop
 
-Tech Stack
-Machine Learning & Backend
+## Tech Stack
+### Machine Learning & Backend
 Python (Pandas, NumPy, Scikit-learn)
 Flask (API Development & Deployment)
 SQLite/MySQL (Database for storing past admission data)
-Frontend
+### Frontend
 HTML, CSS (Styling and Layout)
 JavaScript (Interactivity)
 Bootstrap (Responsive UI Design)
-Dataset
+### Dataset
 The ML model is trained on historical EAPCET admission data, including:
 
 EAPCET Score
